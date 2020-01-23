@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Новости</title>
+    <style>
+        body{background-color: #833faa;}
+        .block {text-align: center; width: 70%;margin-left: 15%}
+        h1 {color:azure;}
+        p { color: #000;}
+        ul{text-align: left;}
+    </style>
+</head>
+<body>
+    <%- include ('blocks/header.ejs') %>
+    <div class="block">
+        <h1> News pages with ID  <%= newsId %></h1>
+        <p><%= newParam %></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam est voluptatem similique delectus, autem natus.
+        </p>
+    </div>
+</body>
+</html>
